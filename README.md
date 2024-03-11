@@ -17,7 +17,7 @@ To run this app locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/habit-tracking-app.git
+   git clone https://github.com/Abhishek01039/habit-demo.git
    ```
 
 2. Navigate to the project directory:
