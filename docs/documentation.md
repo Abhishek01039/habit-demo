@@ -64,44 +64,6 @@ lib/
 |-- main.dart
 ```
 
-## Code Example
-
-Here's an example of how streaks are updated in the `HabitBloc` class:
-
-```dart
-void _updateDailyStreak(Habit habit, DateTime completionDate) {
-  final today = DateTime.now();
-  final yesterday = today.subtract(Duration(days: 1));
-
-  if (habit.completedDates.isEmpty || habit.completedDates.last != yesterday) {
-    habit.streak = 1;
-  } else {
-    habit.streak++;
-  }
-
-  if (habit.streak > habit.longestStreak) {
-    habit.longestStreak = habit.streak;
-  }
-
-  habit.completedDates.add(completionDate);
-}
-
-void _updateWeeklyStreak(Habit habit) {
-  habit.completionCount++;
-
-  if (habit.completionCount == habit.frequency) {
-    habit.streak++;
-  } else if (habit.completionCount > habit.frequency) {
-    habit.streak = 1;
-    habit.completionCount = 1;
-  }
-
-  if (habit.streak > habit.longestStreak) {
-    habit.longestStreak = habit.streak;
-  }
-}
-```
-
 ## Conclusion
 
 The habit tracking app provides users with a simple and effective way to track their habits and maintain streaks. With features like daily and weekly tracking and streak calculation, users can easily stay motivated and achieve their goals.
