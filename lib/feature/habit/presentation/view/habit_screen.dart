@@ -37,21 +37,24 @@ class HabitScreen extends StatelessWidget {
               return Column(
                 children: [
                   const SizedBox(height: 16),
-                  Row(
-                    children: [
-                      Text(
-                        DateFormat('EEEE, MMMM d, yyyy')
-                            .format(state.currentDate),
-                        style: const TextStyle(fontSize: 20),
-                      ),
-                      const Spacer(),
-                      ElevatedButton(
-                        onPressed: () async {
-                          await habitDatePicker(context);
-                        },
-                        child: const Text('Change Date'),
-                      ),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 8),
+                    child: Row(
+                      children: [
+                        Text(
+                          DateFormat('EEEE, MMMM d, yyyy')
+                              .format(state.currentDate),
+                          style: const TextStyle(fontSize: 20),
+                        ),
+                        const Spacer(),
+                        ElevatedButton(
+                          onPressed: () async {
+                            await habitDatePicker(context);
+                          },
+                          child: const Text('Change Date'),
+                        ),
+                      ],
+                    ),
                   ),
                   const SizedBox(height: 8),
                   Expanded(

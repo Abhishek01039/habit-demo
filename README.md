@@ -54,6 +54,14 @@ The executable app can be found in the [APK](apk/app-release.apk)
 
 For detailed documentation on the app's features and implementation, see the [Documentation](docs/documentation.md) file.
 
+## HomeScreen Example
+
+![](screenshot/image.png)
+
+## Database Schema for Habit Collection
+
+![](screenshot/firebase.png)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
