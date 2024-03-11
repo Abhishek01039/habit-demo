@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "1072005691648",
+    "project_id": "digi-card-6641d",
+    "storage_bucket": "digi-card-6641d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072005691648:android:a29613a6c83e2ef2d1dbe5",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072005691648-bhuoac4hcfi7hot7qmchrqaj450n1e7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.demo",
+            "certificate_hash": "7445df0ae4ac9dd220500105d507a6be920970f2"
+          }
+        },
+        {
+          "client_id": "1072005691648-t6pu30nbaqbob0jvu19f3vnpl4md14ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTw4ux8VjIr-3E8RSsuE6Is8fIIHTM5bI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072005691648-t6pu30nbaqbob0jvu19f3vnpl4md14ju.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1072005691648-8o7e7lk7ahfkf7rdk7be2k15d0rqq054.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.memriExample"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072005691648:android:d967817e436395e5d1dbe5",
+        "android_client_info": {
+          "package_name": "com.example.streak_goal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072005691648-t6pu30nbaqbob0jvu19f3vnpl4md14ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTw4ux8VjIr-3E8RSsuE6Is8fIIHTM5bI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072005691648-t6pu30nbaqbob0jvu19f3vnpl4md14ju.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1072005691648-8o7e7lk7ahfkf7rdk7be2k15d0rqq054.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.memriExample"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
