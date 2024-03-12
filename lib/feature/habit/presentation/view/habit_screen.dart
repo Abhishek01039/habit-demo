@@ -41,12 +41,14 @@ class HabitScreen extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 8),
                     child: Row(
                       children: [
-                        Text(
-                          DateFormat('EEEE, MMMM d, yyyy')
-                              .format(state.currentDate),
-                          style: const TextStyle(fontSize: 20),
+                        Flexible(
+                          child: Text(
+                            DateFormat('EEEE, MMMM d, yyyy')
+                                .format(state.currentDate),
+                            style: const TextStyle(fontSize: 20),
+                          ),
                         ),
-                        const Spacer(),
+                        const SizedBox(width: 4),
                         ElevatedButton(
                           onPressed: () async {
                             await habitDatePicker(context);
